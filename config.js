@@ -7,6 +7,7 @@ const config = {
     user: env.DB_USER || 'db_tu4w_user',
     password: env.DB_PASSWORD || 'Kq2KtC1qkSKj591Bc3u40P5XdrUl6cFG',
     database: env.DB_NAME || 'db_tu4w',
+    ssl: true,
   },
   listPerPage: env.LIST_PER_PAGE || 10,
 };
